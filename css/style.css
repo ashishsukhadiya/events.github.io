@@ -1,0 +1,693 @@
+html{
+	scroll-behavior:smooth;
+}
+/*#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+	background-image:url('../images/loader.gif');
+	z-index: 999999;
+}*/
+
+body{
+	overflow x:hidden;
+}
+
+.gotopbtn{
+	position:fixed;
+	width:50px;
+	height:50px;
+	background:#e9c0a4;
+	bottom:40px;
+	right:50px;
+	z-index:2;
+	text-decoration:none;
+	text-align:center;
+	line-height:50px;
+	color:white;
+	font-size:22px;
+}
+li.nav-item a:hover {
+    color: black !important;
+}
+.menu-get::before{
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  transition: 0.5s transform ease;
+  transform: scale3d(0,1,1);
+  transform-origin: 0 50%;
+}
+.nav-link{
+	position: relative;
+}
+.menu-get:hover::before{
+  transform: scale3d(1,1,1);
+}
+.menu-get:hover::before{
+  transform: scale3d(1,1,1);
+}
+.menu-1::before{
+  background:black;
+  transform-origin: 100% 50%;
+}
+.menu-1:hover::before{
+  transform-origin: 0 50%;
+}
+.planing-com-img-1{
+	overflow:hidden !important;
+	width:80%;
+}
+
+.planing-com-img{
+	transition:0.5s;
+	overflow:hidden;
+}
+.planing-com-img:hover{
+	transform: scale(1.5);
+	transition:0.5s;
+}
+.container-fluid{
+	overflow x:hidden !important;
+}
+.header-adress span{
+	color:#e9c0a4;
+	font-size:25px;
+}
+.navbar{
+	background-color:#e9c0a4;
+}
+.carousel-caption h1{
+	font-family: 'Potta One', cursive;
+}
+.Perfect1{
+	background-image: url("../images/event_sidyul.jpg");
+	background-repeat: no-repeat;
+	padding:60px;
+	width:100%;
+}
+.dropdown-menu a:hover{
+	background-color:#e9c0a4;
+}
+.about-us h1{
+	font-family: 'Pacifico', cursive;
+}
+.mapwrapper{
+	position: relative;
+	padding-bottom: 96.666666%;
+	height: 0;
+}
+
+.mapwrapper iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.box{
+	background: rgba(255,255,255,0.8);
+    
+}
+.about-heading h1{
+	font-family: 'Potta One', cursive;
+}
+.about-heading p{
+	 letter-spacing: 7px;
+}
+.Our-Menus{
+	background-image: url("../images/bg_menus.jpg");
+	background-repeat: no-repeat;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.Our h1{
+	font-family: 'Potta One', cursive;
+}
+.item{
+	overflow:hidden;
+}
+.item1 img{
+	transition:1s;
+	overflow:hidden;
+}
+.item1 img:hover{
+	filter:grayscale(100%);
+	transform:scale(1.1);
+}
+.vc_single_image{
+	background-image: url("../images/bg3_home1.jpg");
+	padding:30px;
+	padding-left:65px;
+}
+.Exclusive h4{
+	color:#000;
+}
+.fbox h4:hover{
+	color: rgb(233, 192, 164);
+}
+.box2{
+	margin-top:100px;
+}
+
+.testimonials h4{
+	font-family: 'Bodoni Moda', serif;
+	 line-height: 2;
+}
+.meet-awesome p{
+	letter-spacing: 6px;
+}
+.pbr-team{
+	background-image: url("../images/team work.jpg");
+	padding:60px;
+	background-repeat:no-repeat;
+}
+.middle{
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.card{
+	cursor:pointer;
+	width:330px;
+	height:400px;  
+}
+.front,.back{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	backface-visibility:hidden;
+	position:absolute;
+	transition:transform .6s linear;
+}
+.front img{
+	height:100%;
+}
+.front{
+	transform:perspective(600px) rotateY(0deg);
+}
+.back{
+	background:#f1f1f1;
+	transform:perspective(600px) rotateY(180deg);
+}
+.back-content{
+	color:#2c3e50;
+	text-align:center;
+	width:100%;
+}
+.sm{
+	margin:20px 0;
+}
+.sm a{
+	display:inline-flex;
+	width:40px;
+	height:40px;
+	justify-content:center;
+	align-items:center;
+	color:#2c3e50;
+	font-size:18px;
+	transition:0.4s;
+	border-radius:50%;
+}
+.sm a:hover{
+	background:#2c3e50;
+	color:white;
+	text-decoration: none;
+}
+.card:hover > .front{
+	transform:perspective(600px) rotatey(-180deg);
+}
+.card:hover > .back{
+	transform:perspective(600px) rotatey(0deg);
+}
+.best1{
+	font-family: 'Bodoni Moda', serif;
+}
+.wedding-back{
+	background-image: url("../images/24146_gallery.world.jpg");
+}
+.news{
+	background-image: url("../images/bg_menus (1).jpg");
+	padding:20px;
+}
+.nb-1 p {
+	font-family: 'Bodoni Moda', serif;
+	line-height: 2;
+}
+.nb-1 h5{
+	font-family: 'Bodoni Moda', serif;
+}
+.btn3{
+	border:1px solid #e9c0a4;
+	background:none;
+	padding:5px 10px;
+	font-size:15px;
+	font-family: 'Bodoni Moda', serif;
+	cursor:pointer;
+	margin:10px;
+	transition:0.8s;
+	position:relative;
+	overflow:hidden;
+	z-index:1;
+}
+.btn1,.btn2{
+	color:#e9c0a4;
+}
+
+.btn1:hover,.btn2:hover{
+	color:#fff;
+}
+
+.btn3::before{
+	content:"";
+	position:absolute;
+	left:0;
+	width:100%;
+	height:0%;
+	background:#e9c0a4;
+	z-index:-1;
+	transition:0.8s;
+}
+.btn1::before{
+	top:0;
+	border-radius:0 0 50% 50%;
+}
+.btn2::before{
+	bottom:0;
+	border-radius:50% 50% 0 0;
+}
+
+.btn1:hover::before,.btn2:hover::before{
+	height:180%;
+}
+.sm-1{
+	margin:20px 0;
+}
+.sm-1 a{
+	display:inline-flex;
+	width:40px;
+	height:40px;
+	justify-content:center;
+	align-items:center;
+	color:red;
+	font-size:18px;
+	transition:0.4s;
+	border-radius:50%;
+}
+.sm-1 a:hover{
+	background:red;
+	color:white;
+}
+.count-images{
+	background-image: url("../images/cara-promosi-event-organizer1 (2).png");
+	padding:60px;
+}
+.count-t-d{
+	text-align:center;
+	background:#ddd;
+	border:1px solid #999;
+	padding:10px;
+	box-shadow:0 0 5px 3px #ccc;
+}
+.info{
+	font-size:80px;
+}
+
+.boat img{
+	width:100px; 
+	position: relative;
+  	animation:mymove 4s infinite;
+}
+@keyframes mymove {
+  	0%   {
+  	  left:0px; 
+  	  top:0px;
+  	}
+  	25%  {
+  		left:1100px; 
+  		top:0px;
+  	}
+  	50%   {
+  	  left:1100px; 
+  	  top:0px;
+  	}
+  	100%  {
+  		left:0px; 
+  		top:0px;
+  	}
+}
+
+.carou-con-prev{
+	background-image: url('../images/redo.png') !important;
+}
+.carou-con-next{
+	background-image: url('../images/redo.png') !important;
+	transform: rotate(180deg);
+	color:#e9c0a4 !important;
+}
+.bueaty-car-images img{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.bueaty-car-images:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+@media(min-width:0px )and (max-width:375px){
+	.header-adress1 p{
+		font-size:12px;
+	}
+	.header-adress p{
+		font-size:12px;
+	}
+	.header-adress p span{
+		font-size:12px;
+	}
+	.header-btn button{
+		font-size:10px;
+	}
+	.carousel-caption{
+		top:20px;
+	}
+	.carousel-caption h1{
+		font-size:20px;
+	}
+	.carousel-caption p{
+		font-size:13px;
+	}
+	.sm-cate{
+		font-size:15px;
+	}
+	.images-ser-1 img{
+		margin-top:20px;
+	}
+	.Our h1{
+		font-size:28px;
+	}
+	.Our p{
+		font-size:15px;
+	}
+	.fbox-images img{
+		width:50px;
+	}
+	.Exclusive h4{
+		font-size:15px;
+	}
+	.Exclusive p{
+		font-size:12px;
+	}
+	.testimonials h4{
+		font-size:15px;
+	}
+	.testimonials h3{
+		font-size:15px;
+	}
+	.lastest-1 h2{
+		font-size:25px;
+	}
+	.lastest-1{
+		text-align:center;
+	}
+	.i-about-aerrrow{
+		margin-left:50px;
+	}
+	.b-t-n button{
+		font-size:14px;
+	}
+	.Our h2{
+		font-size:15px;
+	}
+	.Our p{
+		font-size:12px;
+	}
+	.contact-ab h1{
+		font-size:18px;
+	}
+	.contact-sm-dummy h2{
+		font-size:16px;
+	}
+	.contact-sm-dummy p{
+		font-size:13px;
+	}
+	.contact-sm-dummy button{
+		font-size:13px;
+	}
+	.contact-images-2 img{
+		margin-top:30px;
+	}
+	.contact-vision{
+		text-align:center;
+	}
+	.contact-vision h3{
+		font-size:20px;
+	}
+	.contact-vision p{
+		font-size:13px;
+	}
+	.contact-sm-latest h2{
+		font-size:20px;
+	}
+	.update-text p{
+		font-size:12px;
+	}
+	contact-food{
+		margin-left:100px;
+	}
+	.title-decor h5{
+		text-align:center;
+	}
+	.check-slide {
+		margin-left:80px;
+	}
+	.contact-wedding h3{
+		font-size:15px;
+		text-align:center;
+	}
+	.contact-wedding p{
+		font-size:10px;
+		text-align:center;
+	}
+	.planing-com-img-1 {
+    padding: -62px!important;
+    margin-left: 33px;
+	}
+	.planing-com-img-1 {
+    margin-right: 27px;
+    margin-bottom: 20px;
+	}
+}
+@media(min-width:376px )and (max-width:575px){
+	.header-btn button{
+		font-size:10px;
+	}
+	.carousel-caption{
+		top:30px;
+	}
+	.carousel-caption{
+		top:30px;
+	}
+	.carousel-caption h1{
+		font-size:26px;
+	}
+	.carousel-caption p{
+		font-size:13px;
+	}
+	.images-ser-1 img{
+		margin-top:20px;
+	}
+	.header-adress1 p{
+		font-size:12px;
+	}
+	.header-adress p{
+		font-size:12px;
+	}
+	.header-adress p span{
+		font-size:12px;
+	}
+	
+	.carousel-caption{
+		top:30px;
+	}
+	.carousel-caption h1{
+		font-size:26px;
+	}
+	.carousel-caption p{
+		font-size:13px;
+	}
+	.sm-cate{
+		font-size:15px;
+	}
+	.images-ser-1 img{
+		margin-top:20px;
+	}
+	.Our h1{
+		font-size:30px;
+	}
+	.Our p{
+		font-size:20px;
+	}
+	.fbox-images img{
+		width:50px;
+	}
+	.Exclusive h4{
+		font-size:18px;
+	}
+	.Exclusive p{
+		font-size:14px;
+	}
+	.testimonials h4{
+		font-size:18px;
+	}
+	.testimonials h3{
+		font-size:18px;
+	}
+	.lastest-1 h2{
+		font-size:25px;
+	}
+	.lastest-1{
+		text-align:center;
+	}
+	.i-about-aerrrow{
+		margin-left:60px;
+	}
+	.contact-images-2 img{
+		margin-top:30px;
+	}
+	.contact-vision{
+		text-align:center;
+	}
+	.Our h2{
+		font-size:18px;
+	}
+	.Our p{
+		font-size:13px;
+	}
+	.contact-ab h1{
+		font-size:18px;
+	}
+	.contact-sm-dummy h2{
+		font-size:18px;
+	}
+	.contact-sm-dummy p{
+		font-size:12px;
+	}
+	.contact-sm-dummy button{
+		font-size:13px;
+	}
+	.contact-images-2 img{
+		margin-top:30px;
+	}
+	.contact-vision{
+		text-align:center;
+	}
+	.contact-vision h3{
+		font-size:25px;
+	}
+	.contact-vision p{
+		font-size:13px;
+	}
+	.contact-sm-latest h2{
+		font-size:20px;
+	}
+	.update-text p{
+		font-size:12px;
+	}
+	.title-decor h5{
+		text-align:center;
+	}
+	.check-slide {
+		margin-left:140px;
+	}
+	.contact-wedding h3{
+		font-size:18px;
+		text-align:center;
+	}
+	.contact-wedding p{
+		font-size:13px;
+		text-align:center;
+	}
+	.contact-location{
+		text-align:center;
+	}
+}
+@media(min-width:576px )and (max-width:767px){
+	.contact-vision h2{
+		text-align:center;
+	}
+	.contact-location{
+		text-align:center;
+	}
+	
+}
+@media(min-width:768px )and (max-width:991px){
+	.images-ser-1{
+		margin-top:20px;
+		text-align:center;
+	}
+	.carousel-caption{
+		top:20px;
+	}
+	.carousel-caption h1{
+		font-size:50px;
+	}
+	.carousel-caption button{
+		font-size:18px;
+	}
+	.sm-cate{
+		font-size:22px;
+	}
+	.lastest-1{
+		text-align:center;
+	}
+	.i-about-aerrrow{
+		margin-left:200px;
+	}
+	.update-slide{
+		justify-content:center;
+	}
+	.best1{
+		font-size:20px;
+		
+	}
+	.contact-images-2 img{
+		margin-top:30px;
+	}
+	.contact-vision{
+		text-align:center;
+	}
+	.contact-object{
+		text-align:center;
+	}
+	.contact-object h3{
+		text-align:center;
+	}
+	.form-1 input{
+		margin-left:30%;
+	}
+	.form-1 input{
+		width:50%;
+	}
+	.contact-location{
+		text-align:center;
+	}
+	
+}
+@media(min-width:992px )and (max-width:1024px){
+	.contact-vision{
+		text-align:center;
+	}
+	.contact-sm-dummy p{
+		font-size:13px;
+	}
+}
+@media(min-width:1025px )and (max-width:1199px){
+
+}
